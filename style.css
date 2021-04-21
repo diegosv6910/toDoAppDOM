@@ -1,0 +1,206 @@
+body {
+    background: #020631 !important;
+    font: 14px 'Nunito', sans-serif !important;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input {
+    margin-bottom: 15px !important;
+}
+
+#app {
+    text-align: center;
+}
+
+.add-control {
+    margin-top: 20px;
+    position: relative;
+}
+
+.button {
+    background-color: #1700FF;
+    border: none;
+    color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #9E0CF3;
+    border: none;
+    color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 75px;
+}
+
+.has-feedback .fa {
+    line-height: 35px;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+    display: block;
+    color: #666;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+.panel-heading {
+    background-color: #fff;
+    text-align: center;
+}
+
+.today {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.todo-list {
+    margin: 20px 0;
+}
+
+.todo-list li {
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    position: relative;
+    word-break: break-word;
+}
+
+.todo-list li.danger {
+    background: rgb(85, 41, 220);
+}
+
+.todo-list li.danger label {
+    text-decoration: line-through;
+    color: #fff;
+}
+
+.todo-list li.danger label .checkbox-mask {
+    border-color: transparent;
+}
+
+.todo-list li.danger label .checkbox-mask:after {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: 0;
+}
+
+.todo-list li .checkbox {
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.todo-list li label {
+    display: block;
+    padding-right: 10px;
+}
+
+.todo-list li label input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.todo-list li label .checkbox-mask {
+    display: block;
+    border: 2px solid #666;
+    width: 12px;
+    height: 12px;
+    border-radius: 2.5px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px;
+}
+
+.todo-list li .close {
+    display: none;
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    right: 10px;
+    font-size: 16px;
+}
+
+.todo-list li .close .fa {
+    line-height: 16px;
+}
+
+.todo-list li:hover .close {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .col-xs-offset-3 {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-xs-6 {
+        width: 80%;
+    }
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+        max-width: 1150PX;
+    }
+}
+
+@media (max-width: 680px) {
+    svg {
+        width: 70px;
+        height: 70px;
+    }
+}
